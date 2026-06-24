@@ -68,3 +68,4 @@ class OrdersItem(Base):
 
 # execute the creation of the metadata of the database
 
+Base.metadata.create_all(db)
